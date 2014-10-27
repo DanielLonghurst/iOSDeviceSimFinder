@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3100EC19F9360500CC4E29 /* ATTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3100EB19F9360500CC4E29 /* ATTableCellView.m */; };
+		FD79214019F8907200B349D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79213F19F8907200B349D6 /* main.m */; };
+		FD79214319F8907200B349D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79214219F8907200B349D6 /* AppDelegate.m */; };
+		FD79214519F8907200B349D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD79214419F8907200B349D6 /* Images.xcassets */; };
+		FD79214819F8907200B349D6 /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD79214619F8907200B349D6 /* DeviceViewController.xib */; };
+		FD79215419F8907200B349D6 /* iOS_Device_Simulator_FinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD79215319F8907200B349D6 /* iOS_Device_Simulator_FinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD79214E19F8907200B349D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD79213219F8907200B349D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD79213919F8907200B349D6;
+			remoteInfo = "iOS Device Simulator Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD3100EA19F9360500CC4E29 /* ATTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTableCellView.h; sourceTree = "<group>"; };
+		FD3100EB19F9360500CC4E29 /* ATTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATTableCellView.m; sourceTree = "<group>"; };
+		FD79213A19F8907200B349D6 /* iOS Device Simulator Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Device Simulator Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD79213E19F8907200B349D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD79213F19F8907200B349D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD79214119F8907200B349D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD79214219F8907200B349D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD79214419F8907200B349D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD79214719F8907200B349D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DeviceViewController.xib; sourceTree = "<group>"; };
+		FD79214D19F8907200B349D6 /* iOS Device Simulator FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Device Simulator FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD79215219F8907200B349D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD79215319F8907200B349D6 /* iOS_Device_Simulator_FinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Device_Simulator_FinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD79213719F8907200B349D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD79214A19F8907200B349D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD79213119F8907200B349D6 = {
+			isa = PBXGroup;
+			children = (
+				FD79213C19F8907200B349D6 /* iOS Device Simulator Finder */,
+				FD79215019F8907200B349D6 /* iOS Device Simulator FinderTests */,
+				FD79213B19F8907200B349D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD79213B19F8907200B349D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD79213A19F8907200B349D6 /* iOS Device Simulator Finder.app */,
+				FD79214D19F8907200B349D6 /* iOS Device Simulator FinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD79213C19F8907200B349D6 /* iOS Device Simulator Finder */ = {
+			isa = PBXGroup;
+			children = (
+				FD3100EA19F9360500CC4E29 /* ATTableCellView.h */,
+				FD3100EB19F9360500CC4E29 /* ATTableCellView.m */,
+				FD79214119F8907200B349D6 /* AppDelegate.h */,
+				FD79214219F8907200B349D6 /* AppDelegate.m */,
+				FD79214619F8907200B349D6 /* DeviceViewController.xib */,
+				FD79214419F8907200B349D6 /* Images.xcassets */,
+				FD79213D19F8907200B349D6 /* Supporting Files */,
+			);
+			path = "iOS Device Simulator Finder";
+			sourceTree = "<group>";
+		};
+		FD79213D19F8907200B349D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD79213E19F8907200B349D6 /* Info.plist */,
+				FD79213F19F8907200B349D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD79215019F8907200B349D6 /* iOS Device Simulator FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD79215319F8907200B349D6 /* iOS_Device_Simulator_FinderTests.m */,
+				FD79215119F8907200B349D6 /* Supporting Files */,
+			);
+			path = "iOS Device Simulator FinderTests";
+			sourceTree = "<group>";
+		};
+		FD79215119F8907200B349D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD79215219F8907200B349D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD79213919F8907200B349D6 /* iOS Device Simulator Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD79215719F8907200B349D6 /* Build configuration list for PBXNativeTarget "iOS Device Simulator Finder" */;
+			buildPhases = (
+				FD79213619F8907200B349D6 /* Sources */,
+				FD79213719F8907200B349D6 /* Frameworks */,
+				FD79213819F8907200B349D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Device Simulator Finder";
+			productName = "iOS Device Simulator Finder";
+			productReference = FD79213A19F8907200B349D6 /* iOS Device Simulator Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD79214C19F8907200B349D6 /* iOS Device Simulator FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD79215A19F8907200B349D6 /* Build configuration list for PBXNativeTarget "iOS Device Simulator FinderTests" */;
+			buildPhases = (
+				FD79214919F8907200B349D6 /* Sources */,
+				FD79214A19F8907200B349D6 /* Frameworks */,
+				FD79214B19F8907200B349D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD79214F19F8907200B349D6 /* PBXTargetDependency */,
+			);
+			name = "iOS Device Simulator FinderTests";
+			productName = "iOS Device Simulator FinderTests";
+			productReference = FD79214D19F8907200B349D6 /* iOS Device Simulator FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD79213219F8907200B349D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "InVision Automation, Inc.";
+				TargetAttributes = {
+					FD79213919F8907200B349D6 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FD79214C19F8907200B349D6 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FD79213919F8907200B349D6;
+					};
+				};
+			};
+			buildConfigurationList = FD79213519F8907200B349D6 /* Build configuration list for PBXProject "iOS Device Simulator Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD79213119F8907200B349D6;
+			productRefGroup = FD79213B19F8907200B349D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD79213919F8907200B349D6 /* iOS Device Simulator Finder */,
+				FD79214C19F8907200B349D6 /* iOS Device Simulator FinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD79213819F8907200B349D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD79214519F8907200B349D6 /* Images.xcassets in Resources */,
+				FD79214819F8907200B349D6 /* DeviceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD79214B19F8907200B349D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD79213619F8907200B349D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD79214319F8907200B349D6 /* AppDelegate.m in Sources */,
+				FD79214019F8907200B349D6 /* main.m in Sources */,
+				FD3100EC19F9360500CC4E29 /* ATTableCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD79214919F8907200B349D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD79215419F8907200B349D6 /* iOS_Device_Simulator_FinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD79214F19F8907200B349D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD79213919F8907200B349D6 /* iOS Device Simulator Finder */;
+			targetProxy = FD79214E19F8907200B349D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD79214619F8907200B349D6 /* DeviceViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD79214719F8907200B349D6 /* Base */,
+			);
+			name = DeviceViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD79215519F8907200B349D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD79215619F8907200B349D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD79215819F8907200B349D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS Device Simulator Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD79215919F8907200B349D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "iOS Device Simulator Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD79215B19F8907200B349D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Device Simulator FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Device Simulator Finder.app/Contents/MacOS/iOS Device Simulator Finder";
+			};
+			name = Debug;
+		};
+		FD79215C19F8907200B349D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Device Simulator FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Device Simulator Finder.app/Contents/MacOS/iOS Device Simulator Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD79213519F8907200B349D6 /* Build configuration list for PBXProject "iOS Device Simulator Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD79215519F8907200B349D6 /* Debug */,
+				FD79215619F8907200B349D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD79215719F8907200B349D6 /* Build configuration list for PBXNativeTarget "iOS Device Simulator Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD79215819F8907200B349D6 /* Debug */,
+				FD79215919F8907200B349D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD79215A19F8907200B349D6 /* Build configuration list for PBXNativeTarget "iOS Device Simulator FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD79215B19F8907200B349D6 /* Debug */,
+				FD79215C19F8907200B349D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD79213219F8907200B349D6 /* Project object */;
+}
